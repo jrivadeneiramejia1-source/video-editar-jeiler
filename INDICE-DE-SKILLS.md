@@ -23,10 +23,20 @@
 - **`auto-editor` se descartó:** `silence.py` de `ffmpeg-skill` ya quita silencios (probado).
 - **`verificar-video` quedó delgada:** usa `check.py --content` y `look.py` y agrega solo lo que no hacen (derechos, etiqueta de IA, caras y pelo, audiencia).
 
-## Pendientes (fases siguientes)
-| Grupo | Skills | Fase | Estado |
-|---|---|---|---|
-| editar-por-texto | ★ editar-por-texto | 3 | pendiente |
-| graficos-por-palabra | ★ graficos-por-palabra (logos de Simple Icons, CC0) | 3 | pendiente |
-| publicar | youtube-agent-skill (MIT), ★ publicar-video | 3 | pendiente |
-| analizar | plugin watch-video (del directorio) | 3 | pendiente |
+## Fase 3: edición avanzada y publicación (hecha)
+| Skill | Cuándo usarla | Origen |
+|---|---|---|
+| ★ **editar-por-texto** | «Quita la parte donde digo X», «empieza en tal frase», «termina cuando diga Y». | Original |
+| ★ **graficos-por-palabra** | Que salga un logo, imagen o texto cuando la voz dice una palabra (Gemini → logo de Gemini). | Original (logos de Simple Icons, CC0) |
+| ★ **analizar-video** | Entender un video (propio o de referencia): datos, escenas, cuadros y transcripción. | Original |
+| ★ **publicar-video** | Dejar listo para subir: versiones por plataforma, título, descripción, créditos, capítulos, etiqueta de IA. No sube nada. | Original |
+| yt-audit, yt-chapters, yt-comment, yt-edit, yt-package, yt-plan, yt-retention, yt-script, yt-seo, yt-shorts, yt-viral | Crecer y preparar el texto en YouTube (ganchos, título y miniatura, capítulos, SEO, retención, comentarios). | `Jakeschincariol/youtube-agent-skill` (MIT), a2feb21; en inglés, con 2 parches para español |
+
+| Grupo | Skills |
+|---|---|
+| editar-por-texto | ffmpeg-skill, subtitulos, editar-por-texto |
+| graficos-por-palabra | ffmpeg-skill, subtitulos, graficos-por-palabra |
+| analizar | ffmpeg-skill, subtitulos, analizar-video |
+| publicar | ffmpeg-skill, verificar-video, publicar-video y las 11 `yt-*` |
+
+Cambio respecto al plan: **`analizar-video` se escribió como skill propia** (usa lo ya instalado: `look.py`, `scenes.py` y la transcripción) en vez de depender del plugin `watch-video`, que no se puede instalar desde una sesión. El plugin sigue siendo una alternativa.

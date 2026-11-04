@@ -1,2 +1,4 @@
 # Grupos que se instalan solos al abrir una sesión en la nube. Uno por línea.
 editar-basico
+editar-por-texto
+graficos-por-palabra

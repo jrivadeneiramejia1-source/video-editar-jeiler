@@ -4,7 +4,12 @@ Cada fila dice de dónde viene una skill, qué versión se copió y con qué lic
 
 | Skills | Origen | Commit copiado | Fecha | Licencia |
 |---|---|---|---|---|
+| `yt-audit`, `yt-chapters`, `yt-comment`, `yt-edit`, `yt-package`, `yt-plan`, `yt-retention`, `yt-script`, `yt-seo`, `yt-shorts`, `yt-viral` | Jakeschincariol/youtube-agent-skill (tu fork `youtube-agent-skill`) | a2feb21 | 2026-09-16 | MIT |
 | `ffmpeg-skill` (solo `SKILL.md`, `references/` y `scripts/`) | kajisho5/ffmpeg-skill | 1ce2c18 | 2026-11-01 | MIT |
+
+**Cambios hechos a las copias de `youtube-agent-skill`** (marcados en el código con `MODIFICADO (video-editar-jeiler)`): `yt-chapters/chapters.py` y `yt-package/title.py` ahora aceptan tildes y ñ y suman palabras vacías y vagas en español (el original solo lee inglés). `yt-script` y `yt-viral` no se cambiaron y siguen siendo solo para inglés. No se copió su carpeta `.claude-plugin/`.
+
+**Datos que usa `graficos-por-palabra` al correr (no están en el repo):** logos de `simple-icons/simple-icons` (CC0; las marcas siguen siendo de sus dueños), descargados bajo demanda a `~/.cache/video-jeiler/logos`.
 
 ## Revisar si hay versiones nuevas (cada mes)
 ```bash

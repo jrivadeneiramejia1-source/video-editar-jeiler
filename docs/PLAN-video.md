@@ -152,3 +152,6 @@ Formato de los otros repos: cuándo usar, reglas, proceso, señales de alerta, v
 ---
 ## Actualización de la fase 2 (2026-11-04)
 Tras revisar `ffmpeg-skill` se cambió el plan de edición básica: `exportar-para` no se escribió (lo cubren `export.py` y `check.py`), `auto-editor` se descartó (`silence.py` ya quita silencios) y `verificar-video` quedó delgada. Detalle en `INDICE-DE-SKILLS.md` y `PRUEBAS.md`. Lo que falta de esta fase: probar con una grabación real de Jeiler.
+
+## Actualización de la fase 3 (2026-11-04)
+Se escribieron `editar-por-texto`, `graficos-por-palabra`, `analizar-video` (propia, en vez del plugin `watch-video`) y `publicar-video`, y se copiaron las 11 `yt-*` con parches para español en 2 herramientas. Hallazgos: Simple Icons no trae el logo de OpenAI (se pide el archivo o se usa texto), y las herramientas de ganchos de `yt-*` solo sirven en inglés. Falta probar todo con una grabación real de Jeiler.

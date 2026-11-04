@@ -16,5 +16,7 @@ Fase 2 revisada el 2026-11-04.
 
 ## Resultado
 - **ffmpeg-skill** (tercero): se leyeron sus scripts y se buscaron patrones de riesgo. No hay descargas ni conexiones de red en su código (solo texto de ayuda con `pip install` y `sudo apt install`), ni `eval`, `exec`, `os.system` ni `shell=True`. Se dejó fuera su servidor MCP (`mcp/`), el instalador de Node (`bin/`), las demos y las páginas: no hacen falta.
+- **youtube-agent-skill** (tercero, 11 skills y 6 herramientas de Python, 535 líneas): se leyeron las herramientas y se buscaron patrones de riesgo. Solo usan archivos locales: ninguna abre conexiones de red, ejecuta comandos ni usa `eval`/`exec`. Se parchearon dos para español (ver `FUENTES.md`). Las skills leen `~/.claude/youtube/voice.md` si existe.
+- **Scripts propios de la fase 3** (`editar-por-texto`, `graficos-por-palabra`, `analizar-video`): llaman a ffmpeg y a las skills vecinas. Lo único que sale a internet es `graficos-por-palabra` al bajar un logo de `raw.githubusercontent.com/simple-icons` (y su color) la primera vez; si no hay internet, avisa y sigue sin ese logo.
 - **Scripts propios** (`audio-limpio`, `subtitulos`): solo llaman a ffmpeg y a modelos locales. Lo único que baja cosas de internet es `instalar_modelos.sh`, y solo desde `github.com` (`k2-fsa/sherpa-onnx` y `microsoft/DNS-Challenge`) a una carpeta de usuario (`~/.cache/video-jeiler`), con un Python propio (venv) para no tocar el del sistema. No verifica una huella de los modelos: queda pendiente.
 - **gitleaks:** 0 hallazgos.
