@@ -148,3 +148,7 @@ Formato de los otros repos: cuándo usar, reglas, proceso, señales de alerta, v
 - **Verificado** (API de GitHub, 2026-11-04): licencias de HyperFrames (Apache-2.0), ffmpeg-skill (MIT), auto-editor (Unlicense), Demucs (MIT), Simple Icons (CC0), kokoro-onnx (MIT), Chatterbox (MIT), Piper (MIT), LTX-2 (Apache-2.0), reelmimic (MIT), mcp-for-blender (MIT), youtube-agent-skill (MIT, tu fork); y que OpenMontage es AGPL-3.0 y remotion-dev/skills no declara licencia.
 - **Según la documentación de Remotion (por búsqueda):** gratis para personas y organizaciones de hasta 3 personas. **Según el anuncio de Webflow:** GSAP es gratis también para uso comercial.
 - **No verificado:** precios, cupos gratis, calidad real de cada herramienta, y si cada cosa corre en la nube. Eso se prueba en las fases 2 a 7.
+
+---
+## Actualización de la fase 2 (2026-11-04)
+Tras revisar `ffmpeg-skill` se cambió el plan de edición básica: `exportar-para` no se escribió (lo cubren `export.py` y `check.py`), `auto-editor` se descartó (`silence.py` ya quita silencios) y `verificar-video` quedó delgada. Detalle en `INDICE-DE-SKILLS.md` y `PRUEBAS.md`. Lo que falta de esta fase: probar con una grabación real de Jeiler.
