@@ -5,15 +5,16 @@ Sirven para videos hechos con `video-crear-jeiler` y también para los que grabe
 
 Cada carpeta de `skills/` es una skill: un archivo `SKILL.md` con instrucciones para que Claude sepa cuándo y cómo usarla.
 
-## Estado: base lista, skills en camino
-Por ahora el repo tiene solo la base (instalador, hook de inicio, licencia, reglas de privacidad). Las skills llegan por fases; el orden está en `INDICE-DE-SKILLS.md`.
+## Estado: fases 2 y 3 hechas (edición y publicación)
+Hay 8 skills propias o curadas (`ffmpeg-skill`, `audio-limpio`, `subtitulos`, `verificar-video`, `editar-por-texto`, `graficos-por-palabra`, `analizar-video`, `publicar-video`) y 11 de YouTube (`yt-*`, en inglés). Las demás llegan por fases; el orden está en `INDICE-DE-SKILLS.md`. Lo probado y lo no probado: `PRUEBAS.md`.
 
-## Cómo usarlas (cuando haya skills)
+## Cómo usarlas
 Una skill solo funciona si está en la carpeta de skills de Claude (`~/.claude/skills/`). El instalador copia por grupos:
 
 ```bash
 ./instalar.sh --lista            # ver los grupos
-./instalar.sh audio subtitulos   # instalar esos grupos
+./instalar.sh editar-basico      # limpiar audio, subtítulos, comprobar
+./instalar.sh publicar           # preparar para subir (incluye las yt-*)
 ```
 **En sesiones en la nube** se instalan solos los grupos de `grupos-activos.txt`, con un hook de inicio en `.claude/`; solo funciona si este repo está cargado como repo de la sesión. El instalador no pisa una skill que ya exista con el mismo nombre y que no haya instalado él. Mejor pocos grupos a la vez: cada skill agrega su descripción al contexto y eso gasta tokens.
 
