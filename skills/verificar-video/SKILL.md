@@ -1,6 +1,7 @@
 ---
 name: verificar-video
-description: Puerta de calidad antes de entregar o publicar un video: mide formato, volumen, picos, cuadros negros o congelados, silencios y cortes de audio, mira cuadros a tamaño completo, comprueba subtítulos y repasa lo que una máquina no mide (caras, manos y pelo raros en 3D o IA, derechos de música e imágenes, logos, etiqueta de IA y contenido para niños). Usar cuando el usuario diga "revisa el video", "está listo para subir", "verifica que se vea y se oiga bien" o antes de publicar en YouTube, TikTok, Reels o WhatsApp.
+description: >-
+  Puerta de calidad antes de entregar o publicar un video: mide formato, volumen, picos, cuadros negros o congelados, silencios y cortes de audio, mira cuadros a tamaño completo, comprueba subtítulos y repasa lo que una máquina no mide (caras, manos y pelo raros en 3D o IA, derechos de música e imágenes, logos, etiqueta de IA y contenido para niños). Usar cuando el usuario diga "revisa el video", "está listo para subir", "verifica que se vea y se oiga bien" o antes de publicar en YouTube, TikTok, Reels o WhatsApp.
 ---
 
 # Verificar un video

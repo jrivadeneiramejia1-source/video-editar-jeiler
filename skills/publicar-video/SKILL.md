@@ -1,6 +1,7 @@
 ---
 name: publicar-video
-description: Deja un video listo para publicar sin publicarlo: versión para cada plataforma (YouTube, Shorts, TikTok, Reels, WhatsApp), título y texto de miniatura, descripción con créditos y fuentes, capítulos, subtítulos, etiqueta de IA y marca «para niños», más una lista de pasos para que Jeiler lo suba. Usar cuando el usuario diga "prepáralo para subir", "ponle título y descripción", "hazle capítulos", "qué pongo al subirlo" o "versión vertical para TikTok". Esta skill nunca publica ni pide claves de las plataformas.
+description: >-
+  Deja un video listo para publicar sin publicarlo: versión para cada plataforma (YouTube, Shorts, TikTok, Reels, WhatsApp), título y texto de miniatura, descripción con créditos y fuentes, capítulos, subtítulos, etiqueta de IA y marca «para niños», más una lista de pasos para que Jeiler lo suba. Usar cuando el usuario diga "prepáralo para subir", "ponle título y descripción", "hazle capítulos", "qué pongo al subirlo" o "versión vertical para TikTok". Esta skill nunca publica ni pide claves de las plataformas.
 ---
 
 # Publicar un video (preparar, no subir)

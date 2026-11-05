@@ -1,6 +1,7 @@
 ---
 name: graficos-por-palabra
-description: Pone un logo, una imagen o un texto en el video justo cuando la voz dice una palabra: dices «Gemini» y aparece su logo, dices «ChatGPT» y sale su nombre. Encuentra cada vez que se dice la palabra, arma la lista de gráficos para aprobarla, los pone en una sola pasada sin tocar el audio y comprueba cuadro por cuadro que salen cuando y donde debían. Usar cuando el usuario diga "que salga el logo cuando diga X", "pon una imagen cuando mencione...", "gráficos que acompañen lo que digo" o "comparar A con B en el video". No crea los logos: usa Simple Icons (CC0) o el archivo que dé Jeiler.
+description: >-
+  Pone un logo, una imagen o un texto en el video justo cuando la voz dice una palabra: dices «Gemini» y aparece su logo, dices «ChatGPT» y sale su nombre. Encuentra cada vez que se dice la palabra, arma la lista de gráficos para aprobarla, los pone en una sola pasada sin tocar el audio y comprueba cuadro por cuadro que salen cuando y donde debían. Usar cuando el usuario diga "que salga el logo cuando diga X", "pon una imagen cuando mencione...", "gráficos que acompañen lo que digo" o "comparar A con B en el video". No crea los logos: usa Simple Icons (CC0) o el archivo que dé Jeiler.
 ---
 
 # Gráficos por palabra

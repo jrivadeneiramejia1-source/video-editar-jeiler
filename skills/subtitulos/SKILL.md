@@ -1,6 +1,7 @@
 ---
 name: subtitulos
-description: Crea subtítulos sincronizados para un video o audio en español: transcribe con el tiempo de cada palabra (sin internet), alinea un guion ya escrito o arma los subtítulos solos, genera .srt y .vtt, los quema en el video (con estilos, animados o palabra por palabra) y comprueba después que no estén corridos ni mal escritos. Usar cuando el usuario diga "ponle subtítulos", "subtitula este video", "transcribe el audio", "sácame el .srt" o "revisa que los subtítulos estén bien". No cubre wayuunaiki ni idiomas fuera de los europeos.
+description: >-
+  Crea subtítulos sincronizados para un video o audio en español: transcribe con el tiempo de cada palabra (sin internet), alinea un guion ya escrito o arma los subtítulos solos, genera .srt y .vtt, los quema en el video (con estilos, animados o palabra por palabra) y comprueba después que no estén corridos ni mal escritos. Usar cuando el usuario diga "ponle subtítulos", "subtitula este video", "transcribe el audio", "sácame el .srt" o "revisa que los subtítulos estén bien". No cubre wayuunaiki ni idiomas fuera de los europeos.
 ---
 
 # Subtítulos

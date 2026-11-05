@@ -1,6 +1,7 @@
 ---
 name: editar-por-texto
-description: Edita un video diciendo qué frases quitar o conservar, como si se editara la transcripción: «quita la parte donde digo X», «empieza en tal frase», «termina cuando diga Y». Transcribe, encuentra la frase, propone la lista de cortes para aprobarla, corta en una copia sin dejar palabras a medias y comprueba el resultado volviendo a transcribirlo. Usar cuando el usuario diga "quita la parte donde digo...", "córtame lo de...", "deja solo hasta que diga...", "elimina esa frase del video" o "recorta el principio". No sirve para cortes por imagen (sin voz) ni para videos sin habla.
+description: >-
+  Edita un video diciendo qué frases quitar o conservar, como si se editara la transcripción: «quita la parte donde digo X», «empieza en tal frase», «termina cuando diga Y». Transcribe, encuentra la frase, propone la lista de cortes para aprobarla, corta en una copia sin dejar palabras a medias y comprueba el resultado volviendo a transcribirlo. Usar cuando el usuario diga "quita la parte donde digo...", "córtame lo de...", "deja solo hasta que diga...", "elimina esa frase del video" o "recorta el principio". No sirve para cortes por imagen (sin voz) ni para videos sin habla.
 ---
 
 # Editar por texto

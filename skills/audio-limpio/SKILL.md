@@ -1,6 +1,7 @@
 ---
 name: audio-limpio
-description: Limpia el audio de una grabación hecha con teléfono o micrófono barato: quita el ruido de fondo con IA (sin internet), repara picos, deja un volumen parejo y une varias voces para que suenen igual de fuertes. Mide antes y después, porque Claude no puede oír. Usar cuando el usuario diga "quítale el ruido al audio", "se oye bajito", "tiene zumbido o ruido de fondo", "une estas voces", "iguala el volumen" o "limpia la voz" de un video o audio. No sirve para música ni para separar instrumentos.
+description: >-
+  Limpia el audio de una grabación hecha con teléfono o micrófono barato: quita el ruido de fondo con IA (sin internet), repara picos, deja un volumen parejo y une varias voces para que suenen igual de fuertes. Mide antes y después, porque Claude no puede oír. Usar cuando el usuario diga "quítale el ruido al audio", "se oye bajito", "tiene zumbido o ruido de fondo", "une estas voces", "iguala el volumen" o "limpia la voz" de un video o audio. No sirve para música ni para separar instrumentos.
 ---
 
 # Audio limpio

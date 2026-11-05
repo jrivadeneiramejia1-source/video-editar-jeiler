@@ -1,6 +1,7 @@
 ---
 name: analizar-video
-description: Entiende un video sin verlo entero: arma un paquete de evidencia con datos técnicos, cambios de escena, momentos de más volumen, una hoja de cuadros con minutaje y la transcripción con tiempos. Usar cuando el usuario diga "mira este video y dime de qué trata", "analiza este video", "qué pasa en este video", "revisa cómo está hecho este video" o antes de estudiar un video de referencia. No opina de calidad artística: da datos y cuadros.
+description: >-
+  Entiende un video sin verlo entero: arma un paquete de evidencia con datos técnicos, cambios de escena, momentos de más volumen, una hoja de cuadros con minutaje y la transcripción con tiempos. Usar cuando el usuario diga "mira este video y dime de qué trata", "analiza este video", "qué pasa en este video", "revisa cómo está hecho este video" o antes de estudiar un video de referencia. No opina de calidad artística: da datos y cuadros.
 ---
 
 # Analizar un video
