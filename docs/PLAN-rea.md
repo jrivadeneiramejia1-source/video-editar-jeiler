@@ -14,8 +14,8 @@ REA (`morluto/rea`, paquete npm `rea-agents`, licencia MIT) es un servidor MCP q
 ## Vacíos de este repo (editar)
 | # | Vacío | Por qué falta | Qué mirar con REA | Estado |
 | --- | --- | --- | --- | --- |
-| 3 | Textos animados y transiciones tipo editor web | Solo está en el plan, sin skill | Editores de video en línea: qué librería animan | Por confirmar |
-| 5 | Reencuadre a vertical siguiendo la cara | El reencuadre actual parece fijo | Editores web con «auto reencuadre»: qué detector de caras usan | Por confirmar |
+| 3 | Textos animados y transiciones tipo editor web | Solo está en el plan, sin skill | Editores de video en línea: qué librería animan | Ya cubierto por `join.py` (transiciones) y `graphics.py` (títulos y tercios) |
+| 5 | Reencuadre a vertical siguiendo la cara | El reencuadre actual parece fijo | Editores web con «auto reencuadre»: qué detector de caras usan | Hay herramienta libre (pyautoflip, MIT); falta probar con una cara real |
 
 Fuera de REA (no es ingeniería inversa): probar con una grabación real de Jeiler, ganchos de YouTube en español, logo de OpenAI que no trae Simple Icons.
 
@@ -37,8 +37,8 @@ Fuera de REA (no es ingeniería inversa): probar con una grabación real de Jeil
 | Fase | Qué se hace | Entrega | Estado |
 | --- | --- | --- | --- |
 | 0 | Preparar REA en la nube | REA funciona sí/no | Hecha |
-| 1 | Confirmar los vacíos 3 y 5 y buscar primero lo libre | Lista final de vacíos | Pendiente |
-| 2 | Páginas web con REA, vacíos 3 y 5 en orden | HALLAZGOS-rea y hoja de muestras | Pendiente |
+| 1 | Confirmar los vacíos 3 y 5 y buscar primero lo libre | Lista final de vacíos | Hecha |
+| 2 | Páginas web con REA, vacíos 3 y 5 en orden | HALLAZGOS-rea y hoja de muestras | Hecha: REA no hizo falta (ver `HALLAZGOS-rea-2026-11-06.md`) |
 | 3 | Apps (APK/Electron), solo con permiso por cada app | Candidatos extra | Opcional |
 | 4 | Integrar lo que Jeiler elija (rama + PR, licencia en `third-party/`) | PR por repo | Pendiente |
 
